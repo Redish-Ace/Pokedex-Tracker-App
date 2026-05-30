@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tracker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@id/button_container">
+
+        <TextView
+            android:id="@+id/game_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Game"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/game_text"
+            android:autofillHints=""
+            android:background="@drawable/seach_bar"
+            android:hint="Pokemon"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="?android:textColor"
+            android:textColorHint="?android:textColorHint" />
+
+        <LinearLayout
+            android:id="@+id/dex_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_below="@id/search_bar">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/regional_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regional" />
+
+            <LinearLayout
+                android:id="@+id/kalos_dexes_button_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/central_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Central" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/coastal_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coastal" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/mountain_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Montain" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/national_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="National" />
+
+            <LinearLayout
+                android:id="@+id/swsh_dexes_button_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/galar_dex_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Galar" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/armor_dex_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Isle of Armor" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/crown_dex_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crown Tundra" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sv_dexes_button_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/paldea_dex_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paldea" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/mask_dex_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kitakami" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/disk_dex_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blueberry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/za_dexes_button_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/lumiose_dex_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lumiose" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/hyperspace_dex_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hyperspace" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/dex_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dex_container"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/csv_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2.5dp"
+            android:text="CSV"
+            android:textColor="@color/light_gray"
+            android:background="@drawable/csv_button_ripple"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/json_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2.5dp"
+            android:text="JSON"
+            android:textColor="@color/light_gray"
+            android:background="@drawable/json_button_ripple"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/scroll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_container">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/rby_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Red/Blue/Yellow" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/gsc_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Gold/Silver/Crystal"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/rse_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Ruby/Sapphire/Emerald" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/frlg_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Fire Red/Leaf Green" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/dppt_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Diamond/Pearl/Platinum" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/hgss_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Heart Gold/Soul Silver" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bw_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Black/White" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/b2w2_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Black 2/White 2"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/xy_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="X/Y" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/oras_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Omega Ruby/Alpha Sapphire" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sm_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Sun/Moon" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/usum_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Ultra Sun/Ultra Moon" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/pe_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Let's Go Pikachu/Let's Go Eevee" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/swsh_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Sword/Shield" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/bdsp_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Brilliand Diamond/Shinning Pearl" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/la_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Legends Arceus" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sv_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Scarlet/Violet" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/lza_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Legends ZA" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/csv_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2.5dp"
+            android:text="CSV"
+            android:textColor="@color/light_gray"
+            android:background="@drawable/csv_button_ripple"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/json_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2.5dp"
+            android:text="JSON"
+            android:textColor="@color/light_gray"
+            android:background="@drawable/json_button_ripple"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

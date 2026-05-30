@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PokedexTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="color">@color/dark_gray</item>
+        <item name="android:textColor">@color/light_gray</item>
+        <item name="android:textColorHint">@color/light_gray_transparent</item>
+    </style>
+</resources>

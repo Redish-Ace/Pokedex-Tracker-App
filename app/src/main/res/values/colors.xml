@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_gray">#303030</color>
+    <color name="dark_gray_transparent">#CC303030</color>
+    <color name="light_gray">#F1F1F1</color>
+    <color name="light_gray_transparent">#CCF1F1F1</color>
+    <color name="csv_green">#52856B</color>
+    <color name="csv_green_dark">#3c614e</color>
+    <color name="json_blue">#194485</color>
+    <color name="json_blue_dark">#102c57</color>
+</resources>
