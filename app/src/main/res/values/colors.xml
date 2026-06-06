@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="transparent">#00000000</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="dark_gray">#303030</color>
@@ -10,4 +11,42 @@
     <color name="csv_green_dark">#3c614e</color>
     <color name="json_blue">#194485</color>
     <color name="json_blue_dark">#102c57</color>
+    <color name="red">#DB1B21</color>
+    <color name="blue">#009EDA</color>
+    <color name="yellow">#F7CD00</color>
+    <color name="gold">#9A8D54</color>
+    <color name="silver">#AAB1B9</color>
+    <color name="crystal">#2284C6</color>
+    <color name="ruby">#BE3D2E</color>
+    <color name="sapphire">#0173B3</color>
+    <color name="emerald">#01A64F</color>
+    <color name="firered">#C65731</color>
+    <color name="leafgreen">#93C951</color>
+    <color name="diamond">#2B488A</color>
+    <color name="pearl">#BC9C9D</color>
+    <color name="platinum">#9E9E9E</color>
+    <color name="heartgold">#C69C30</color>
+    <color name="soulsilver">#BBC2C8</color>
+    <color name="black2">#090407</color>
+    <color name="white2">#FEFFFE</color>
+    <color name="x">#015F9B</color>
+    <color name="y">#D4233F</color>
+    <color name="omegaruby">#8E1120</color>
+    <color name="alphasapphire">#2A4395</color>
+    <color name="sun">#FF9800</color>
+    <color name="moon">#2D3D8A</color>
+    <color name="ultrasun">#DE4422</color>
+    <color name="ultramoon">#253684</color>
+    <color name="pikachu">#E7BA41</color>
+    <color name="eevee">#C4813D</color>
+    <color name="sword">#00AEEF</color>
+    <color name="shield">#EC1065</color>
+    <color name="brilliantdiamond">#2965BA</color>
+    <color name="shinningpearl">#D37884</color>
+    <color name="arceus">#E6E5E2</color>
+    <color name="scarlet">#CB141F</color>
+    <color name="violet">#6F1A87</color>
+    <color name="za">#3F3D3E</color>
+    <color name="winds">#468C7A</color>
+    <color name="waves">#132CBC</color>
 </resources>

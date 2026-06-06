@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/game_text"
             android:autofillHints=""
-            android:background="@drawable/seach_bar"
+            android:background="@drawable/search_bar"
             android:hint="Pokemon"
             android:inputType="text"
             android:minHeight="48dp"
@@ -44,44 +44,26 @@
             android:gravity="center"
             android:layout_below="@id/search_bar">
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/regional_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Regional" />
-
             <LinearLayout
-                android:id="@+id/kalos_dexes_button_container"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/general_dexes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:visibility="gone">
+                android:gravity="center">
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/central_button"
+                    android:id="@+id/regional_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Central" />
+                    android:text="Regional" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/coastal_button"
+                    android:id="@+id/national_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Coastal" />
-
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/mountain_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Montain" />
+                    android:text="National" />
 
             </LinearLayout>
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/national_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="National" />
 
             <LinearLayout
                 android:id="@+id/swsh_dexes_button_container"
@@ -160,11 +142,58 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Pokemon"
+                android:textSize="20sp"
+                android:textColor="?android:textColor"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="30dp"/>
+
+            <TextView
+                android:id="@+id/textGame1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Game"
+                android:textSize="20sp"
+                android:textColor="?android:textColor"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/textGame2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Game"
+                android:textSize="20sp"
+                android:textColor="?android:textColor"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/textGame3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Game"
+                android:textSize="20sp"
+                android:textColor="?android:textColor"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="30dp"/>
+
+        </LinearLayout>
+
         <ListView
             android:id="@+id/dex_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/dex_container"/>
+            tools:listitem="@layout/pokemon_item_layout"/>
 
     </LinearLayout>
 

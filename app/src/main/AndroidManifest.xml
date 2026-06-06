@@ -22,13 +22,8 @@
         </activity>
 
         <activity
-            android:name="TrackerActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.ALTERNATIVE" />
-            </intent-filter>
+            android:name=".TrackerActivity"
+            android:exported="false">
         </activity>
     </application>
 

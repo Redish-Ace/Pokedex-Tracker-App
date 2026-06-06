@@ -141,7 +141,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
-                    android:text="Brilliand Diamond/Shinning Pearl" />
+                    android:text="Brilliant Diamond/Shinning Pearl" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/la_button"
