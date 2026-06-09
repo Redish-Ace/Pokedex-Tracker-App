@@ -1,6 +1,7 @@
 package com.recacer.pokedextracker;
 
 import static android.view.View.GONE;
+import static android.view.View.INVISIBLE;
 import static android.view.View.VISIBLE;
 
 import android.os.Bundle;
@@ -71,10 +72,12 @@ public class TrackerActivity extends AppCompatActivity {
         TextView gameTextView = findViewById(R.id.game_text);
         if (gameName != null) {
             gameTextView.setText(gameName);
+
             gamePokemon = getRegionalDex();
             Button[] dexButtons = {findViewById(R.id.regional_button), findViewById(R.id.national_button), findViewById(R.id.galar_dex_button), findViewById(R.id.armor_dex_button),
                     findViewById(R.id.crown_dex_button), findViewById(R.id.paldea_dex_button), findViewById(R.id.mask_dex_button), findViewById(R.id.disk_dex_button),
                     findViewById(R.id.lumiose_dex_button), findViewById(R.id.hyperspace_dex_button)};
+
             setButtons(dexButtons);
             setGameNames();
             setListView();
@@ -201,15 +204,18 @@ public class TrackerActivity extends AppCompatActivity {
         switch(games.length){
             case 1:{
                 text2.setText(games[0]);
-                text1.setVisibility(GONE);
-                text3.setVisibility(GONE);
+                text1.setText("");
+                text1.setVisibility(INVISIBLE);
+                text3.setText("");
+                text3.setVisibility(INVISIBLE);
                 break;
             }
             case 2:{
-                text1.setText(games[0]);
-                text2.setText(games[1]);
-                text1.setVisibility(VISIBLE);
-                text3.setVisibility(GONE);
+                text2.setText(games[0]);
+                text3.setText(games[1]);
+                text1.setText("");
+                text1.setVisibility(INVISIBLE);
+                text3.setVisibility(VISIBLE);
                 break;
             }
             case 3:{
@@ -280,7 +286,7 @@ public class TrackerActivity extends AppCompatActivity {
             break;
             case "National": gamePokemon = getNationalDex();
             break;
-            default: gamePokemon = getOtherDex(btnText.toLowerCase());
+            default: gamePokemon = getOtherDex(btnText.toLowerCase().replace(" ", "-"));
         }
 
         setListView();

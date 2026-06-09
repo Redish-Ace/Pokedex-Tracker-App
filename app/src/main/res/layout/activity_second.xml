@@ -55,13 +55,17 @@
                     android:id="@+id/regional_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Regional" />
+                    android:layout_marginEnd="5dp"
+                    android:text="Regional"
+                    android:background="@drawable/dex_ripple"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/national_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="National" />
+                    android:layout_marginStart="5dp"
+                    android:text="National"
+                    android:background="@drawable/dex_ripple"/>
 
             </LinearLayout>
 
@@ -76,19 +80,26 @@
                     android:id="@+id/galar_dex_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Galar" />
+                    android:layout_marginEnd="5dp"
+                    android:text="Galar"
+                    android:background="@drawable/ripple_galar"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/armor_dex_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Isle of Armor" />
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Isle of Armor"
+                    android:background="@drawable/ripple_armor"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/crown_dex_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Crown Tundra" />
+                    android:layout_marginStart="5dp"
+                    android:text="Crown Tundra"
+                    android:background="@drawable/ripple_crown" />
 
             </LinearLayout>
 
@@ -103,19 +114,26 @@
                     android:id="@+id/paldea_dex_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Paldea" />
+                    android:layout_marginEnd="5dp"
+                    android:text="Paldea"
+                    android:background="@drawable/ripple_paldea"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/mask_dex_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Kitakami" />
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Kitakami"
+                    android:background="@drawable/ripple_kitakami"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/disk_dex_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Blueberry" />
+                    android:layout_marginStart="5dp"
+                    android:text="Blueberry"
+                    android:background="@drawable/ripple_blueberry"/>
 
             </LinearLayout>
 
@@ -130,13 +148,17 @@
                     android:id="@+id/lumiose_dex_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Lumiose" />
+                    android:layout_marginEnd="5dp"
+                    android:text="Lumiose"
+                    android:background="@drawable/ripple_lumiose"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/hyperspace_dex_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hyperspace" />
+                    android:layout_marginStart="5dp"
+                    android:text="Hyperspace"
+                    android:background="@drawable/ripple_hyperspace"/>
 
             </LinearLayout>
 
@@ -146,6 +168,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="8dp"
             android:layout_marginTop="10dp">
 
             <TextView
@@ -153,39 +177,58 @@
                 android:layout_height="match_parent"
                 android:text="Pokemon"
                 android:textSize="20sp"
-                android:textColor="?android:textColor"
-                android:layout_marginStart="40dp"
-                android:layout_marginEnd="30dp"/>
-
-            <TextView
-                android:id="@+id/textGame1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="Game"
-                android:textSize="20sp"
+                android:textStyle="bold"
                 android:textColor="?android:textColor"
                 android:layout_marginStart="30dp"
-                android:layout_marginEnd="5dp"/>
+                android:layout_marginEnd="30dp"
+                android:gravity="center"/>
 
-            <TextView
-                android:id="@+id/textGame2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="Game"
-                android:textSize="20sp"
-                android:textColor="?android:textColor"
-                android:layout_marginStart="5dp"
-                android:layout_marginEnd="5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/textGame3"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="Game"
-                android:textSize="20sp"
-                android:textColor="?android:textColor"
-                android:layout_marginStart="5dp"
-                android:layout_marginEnd="30dp"/>
+                <TextView
+                    android:id="@+id/textGame1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:minWidth="50dp"
+                    android:maxWidth="60dp"
+                    android:text="Game"
+                    android:textSize="16sp"
+                    android:textColor="?android:textColor"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/textGame2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:minWidth="50dp"
+                    android:maxWidth="60dp"
+                    android:text="Game"
+                    android:textSize="16sp"
+                    android:textColor="?android:textColor"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/textGame3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:minWidth="50dp"
+                    android:maxWidth="60dp"
+                    android:text="Game"
+                    android:textSize="16sp"
+                    android:textColor="?android:textColor"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+            </LinearLayout>
 
         </LinearLayout>
 

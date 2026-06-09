@@ -4,13 +4,10 @@ import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.widget.Toast;
-
-import androidx.annotation.RequiresApi;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -22,7 +19,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Dictionary;
 import java.util.Enumeration;

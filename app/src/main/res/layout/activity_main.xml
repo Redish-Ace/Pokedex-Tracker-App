@@ -37,6 +37,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Gold/Silver/Crystal"/>
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -45,6 +46,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Ruby/Sapphire/Emerald" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -53,6 +55,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Fire Red/Leaf Green" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -61,6 +64,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Diamond/Pearl/Platinum" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -69,6 +73,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Heart Gold/Soul Silver" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -77,6 +82,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Black/White" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -85,6 +91,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Black 2/White 2"/>
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -93,6 +100,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="X/Y" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -101,6 +109,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Omega Ruby/Alpha Sapphire" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -109,6 +118,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Sun/Moon" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -117,6 +127,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Ultra Sun/Ultra Moon" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -125,6 +136,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Let's Go Pikachu/Let's Go Eevee" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -133,6 +145,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Sword/Shield" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -141,6 +154,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Brilliant Diamond/Shinning Pearl" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -149,6 +163,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Legends Arceus" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -157,6 +172,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Scarlet/Violet" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -165,6 +181,7 @@
                     android:layout_height="95dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
                     android:text="Legends ZA" />
 
             </LinearLayout>

@@ -1175,7 +1175,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Nidoran-f": {
+   "NidoranF": {
       "Red": false,
       "Blue": false,
       "Yellow": false,
@@ -1301,7 +1301,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Nidoran-m": {
+   "NidoranM": {
       "Red": false,
       "Blue": false,
       "Yellow": false,
@@ -5081,7 +5081,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Mr-mime": {
+   "Mr.Mime": {
       "Red": false,
       "Blue": false,
       "Yellow": false,
@@ -14597,7 +14597,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Deoxys-normal": {
+   "Deoxys": {
       "Ruby": false,
       "Sapphire": false,
       "Emerald": false,
@@ -15385,7 +15385,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Wormadam-plant": {
+   "Wormadam": {
       "Diamond": false,
       "Pearl": false,
       "Platinum": false,
@@ -16139,7 +16139,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Mime-jr": {
+   "Mime Jr.": {
       "Diamond": false,
       "Pearl": false,
       "Platinum": false,
@@ -17154,7 +17154,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Porygon-z": {
+   "Porygon Z": {
       "Diamond": false,
       "Pearl": false,
       "Platinum": false,
@@ -17531,7 +17531,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Giratina-altered": {
+   "Giratina": {
       "Diamond": false,
       "Pearl": false,
       "Platinum": false,
@@ -17676,7 +17676,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Shaymin-land": {
+   "Shaymin": {
       "Diamond": false,
       "Pearl": false,
       "Platinum": false,
@@ -18966,7 +18966,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Basculin-red-striped": {
+   "Basculin": {
       "Black": false,
       "White": false,
       "Black 2": false,
@@ -19076,7 +19076,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Darmanitan-standard": {
+   "Darmanitan": {
       "Black": false,
       "White": false,
       "Black 2": false,
@@ -19890,7 +19890,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Frillish-male": {
+   "Frillish": {
       "Black": false,
       "White": false,
       "Black 2": false,
@@ -19912,7 +19912,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Jellicent-male": {
+   "Jellicent": {
       "Black": false,
       "White": false,
       "Black 2": false,
@@ -20968,7 +20968,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Tornadus-incarnate": {
+   "Tornadus": {
       "Black": false,
       "White": false,
       "Black 2": false,
@@ -20990,7 +20990,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Thundurus-incarnate": {
+   "Thundurus": {
       "Black": false,
       "White": false,
       "Black 2": false,
@@ -21056,7 +21056,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Landorus-incarnate": {
+   "Landorus": {
       "Black": false,
       "White": false,
       "Black 2": false,
@@ -21100,7 +21100,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Keldeo-ordinary": {
+   "Keldeo": {
       "Black": false,
       "White": false,
       "Black 2": false,
@@ -21122,7 +21122,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Meloetta-aria": {
+   "Meloetta": {
       "Black": false,
       "White": false,
       "Black 2": false,
@@ -21490,7 +21490,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Pyroar-male": {
+   "Pyroar": {
       "X": false,
       "Y": false,
       "Omega Ruby": false,
@@ -21670,7 +21670,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Meowstic-male": {
+   "Meowstic": {
       "X": false,
       "Y": false,
       "Omega Ruby": false,
@@ -21724,7 +21724,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Aegislash-shield": {
+   "Aegislash": {
       "X": false,
       "Y": false,
       "Omega Ruby": false,
@@ -22246,7 +22246,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Pumpkaboo-average": {
+   "Pumpkaboo": {
       "X": false,
       "Y": false,
       "Omega Ruby": false,
@@ -22264,7 +22264,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Gourgeist-average": {
+   "Gourgeist": {
       "X": false,
       "Y": false,
       "Omega Ruby": false,
@@ -22390,7 +22390,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Zygarde-50": {
+   "Zygarde": {
       "X": false,
       "Y": false,
       "Omega Ruby": false,
@@ -22728,7 +22728,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Oricorio-baile": {
+   "Oricorio": {
       "Sun": false,
       "Moon": false,
       "Ultra Sun": false,
@@ -22784,7 +22784,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Lycanroc-midday": {
+   "Lycanroc": {
       "Sun": false,
       "Moon": false,
       "Ultra Sun": false,
@@ -22798,7 +22798,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Wishiwashi-solo": {
+   "Wishiwashi": {
       "Sun": false,
       "Moon": false,
       "Ultra Sun": false,
@@ -23190,7 +23190,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Minior-red-meteor": {
+   "Minior": {
       "Sun": false,
       "Moon": false,
       "Ultra Sun": false,
@@ -23246,7 +23246,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Mimikyu-disguised": {
+   "Mimikyu": {
       "Sun": false,
       "Moon": false,
       "Ultra Sun": false,
@@ -23344,7 +23344,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Tapu-koko": {
+   "Tapu Koko": {
       "Sun": false,
       "Moon": false,
       "Ultra Sun": false,
@@ -23358,7 +23358,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Tapu-lele": {
+   "Tapu Lele": {
       "Sun": false,
       "Moon": false,
       "Ultra Sun": false,
@@ -23372,7 +23372,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Tapu-bulu": {
+   "Tapu Bulu": {
       "Sun": false,
       "Moon": false,
       "Ultra Sun": false,
@@ -23386,7 +23386,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Tapu-fini": {
+   "Tapu Fini": {
       "Sun": false,
       "Moon": false,
       "Ultra Sun": false,
@@ -24084,7 +24084,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Toxtricity-amped": {
+   "Toxtricity": {
       "Sword": false,
       "Shield": false,
       "Legends Arceus": false,
@@ -24254,7 +24254,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Mr-rime": {
+   "Mr.Rime": {
       "Sword": false,
       "Shield": false,
       "Legends Arceus": false,
@@ -24344,7 +24344,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Eiscue-ice": {
+   "Eiscue": {
       "Sword": false,
       "Shield": false,
       "Legends Arceus": false,
@@ -24354,7 +24354,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Indeedee-male": {
+   "Indeedee": {
       "Sword": false,
       "Shield": false,
       "Legends Arceus": false,
@@ -24364,7 +24364,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Morpeko-full-belly": {
+   "Morpeko": {
       "Sword": false,
       "Shield": false,
       "Legends Arceus": false,
@@ -24514,7 +24514,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Urshifu-single-strike": {
+   "Urshifu": {
       "Sword": false,
       "Shield": false,
       "Legends Arceus": false,
@@ -24614,7 +24614,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Basculegion-male": {
+   "Basculegion": {
       "Sword": false,
       "Shield": false,
       "Legends Arceus": false,
@@ -24644,7 +24644,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Enamorus-incarnate": {
+   "Enamorus": {
       "Sword": false,
       "Shield": false,
       "Legends Arceus": false,
@@ -24724,7 +24724,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Oinkologne-male": {
+   "Oinkologne": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
@@ -24787,7 +24787,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Maushold-family-of-four": {
+   "Maushold": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
@@ -24829,7 +24829,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Squawkabilly-green-plumage": {
+   "Squawkabilly": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
@@ -25060,7 +25060,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Palafin-zero": {
+   "Palafin": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
@@ -25158,7 +25158,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Tatsugiri-curly": {
+   "Tatsugiri": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
@@ -25186,7 +25186,7 @@
       "Winds": false,
       "Waves": false
    },
-   "Dudunsparce-two-segment": {
+   "Dudunsparce": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
@@ -25200,84 +25200,84 @@
       "Winds": false,
       "Waves": false
    },
-   "Great-tusk": {
+   "Great Tusk": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Scream-tail": {
+   "Scream Tail": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Brute-bonnet": {
+   "Brute Bonnet": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Flutter-mane": {
+   "Flutter Mane": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Slither-wing": {
+   "Slither Wing": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Sandy-shocks": {
+   "Sandy Shocks": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Iron-treads": {
+   "Iron Treads": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Iron-bundle": {
+   "Iron Bundle": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Iron-hands": {
+   "Iron Hands": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Iron-jugulis": {
+   "Iron Jugulis": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Iron-moth": {
+   "Iron Moth": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Iron-thorns": {
+   "Iron Thorns": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
@@ -25347,14 +25347,14 @@
       "Winds": false,
       "Waves": false
    },
-   "Roaring-moon": {
+   "Roaring Moon": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Iron-valiant": {
+   "Iron Valiant": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
@@ -25375,14 +25375,14 @@
       "Winds": false,
       "Waves": false
    },
-   "Walking-wake": {
+   "Walking Wake": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Iron-leaves": {
+   "Iron Leaves": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
@@ -25452,28 +25452,28 @@
       "Winds": false,
       "Waves": false
    },
-   "Gouging-fire": {
+   "Gouging Fire": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Raging-bolt": {
+   "Raging Bolt": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Iron-boulder": {
+   "Iron Boulder": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,
       "Winds": false,
       "Waves": false
    },
-   "Iron-crown": {
+   "Iron Crown": {
       "Scarlet": false,
       "Violet": false,
       "Legends ZA": false,

@@ -2,19 +2,17 @@ package com.recacer.pokedextracker;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Layout;
-import android.view.LayoutInflater;
-import android.view.View;
 import android.widget.Button;
-import android.widget.ListAdapter;
-import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
-import androidx.annotation.ContentView;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.res.ResourcesCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import java.util.Map;
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -35,11 +33,34 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.oras_button), findViewById(R.id.sm_button), findViewById(R.id.usum_button), findViewById(R.id.pe_button), findViewById(R.id.swsh_button),
                 findViewById(R.id.bdsp_button), findViewById(R.id.la_button), findViewById(R.id.sv_button), findViewById(R.id.lza_button)};
 
+        Map<String, Integer> drawableGame = Map.ofEntries(
+                Map.entry("Red/Blue/Yellow", R.drawable.gradient_rby),
+                Map.entry("Gold/Silver/Crystal", R.drawable.gradient_gsc),
+                Map.entry("Ruby/Sapphire/Emerald", R.drawable.gradient_rse),
+                Map.entry("Fire Red/Leaf Green", R.drawable.gradient_frlg),
+                Map.entry("Diamond/Pearl/Platinum", R.drawable.gradient_dppt),
+                Map.entry("Heart Gold/Soul Silver", R.drawable.gradient_hgss),
+                Map.entry("Black/White", R.drawable.gradient_bw),
+                Map.entry("Black 2/White 2", R.drawable.gradient_b2w2),
+                Map.entry("X/Y", R.drawable.gradient_xy),
+                Map.entry("Omega Ruby/Alpha Sapphire", R.drawable.gradient_oras),
+                Map.entry("Sun/Moon", R.drawable.gradient_sm),
+                Map.entry("Ultra Sun/Ultra Moon", R.drawable.gradient_usum),
+                Map.entry("Let's Go Pikachu/Let's Go Eevee", R.drawable.gradient_pe),
+                Map.entry("Sword/Shield", R.drawable.gradient_swsh),
+                Map.entry("Brilliant Diamond/Shinning Pearl", R.drawable.gradient_bdsp),
+                Map.entry("Legends Arceus", R.drawable.gradient_la),
+                Map.entry("Scarlet/Violet", R.drawable.gradient_sv),
+                Map.entry("Legends ZA", R.drawable.gradient_za)
+        );
+
         for (final Button button : buttons) {
-            String[] games = button.getText().toString().split("/");
-            int [] colors = new int[3];
+            String games = button.getText().toString();
 
-
+            button.setBackground(ResourcesCompat.getDrawable(getResources(), Objects.requireNonNull(drawableGame.get(games)), null));
+            if(games.equals("Legends Arceus")){
+                button.setTextColor(R.color.black);
+            }
 
             button.setOnClickListener(v -> {
                 Intent intent = new Intent(MainActivity.this, TrackerActivity.class);
